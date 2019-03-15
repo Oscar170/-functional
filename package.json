@@ -1,0 +1,44 @@
+{
+  "name": "root",
+  "description": "My tiny functional lib ⚡️⚡️",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "prerelease": "yarn build",
+    "release": "lerna publish",
+    "commit": "git-cz",
+    "prebuild": "npm run tsc && npm run lint && npm run test",
+    "build": "lerna exec --parallel 'BABEL_ENV=build babel src --root-mode upward  --out-dir dist --ignore **/*.spec.ts --source-maps --extensions .ts --delete-dir-on-start --no-comments'",
+    "lint": "tslint --config tslint.json 'packages/**/*.ts'",
+    "test": "jest --detectOpenHandles",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.9",
+    "babel-core": "7.0.0-bridge.0",
+    "commitizen": "^3.0.7",
+    "cz-lerna-changelog": "^2.0.2",
+    "jest": "^24.1.0",
+    "lerna": "^3.13.1",
+    "prettier": "^1.16.4",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.13.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.3.3333"
+  },
+  "resolutions": {
+    "babel-core": "^7.0.0-bridge.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  }
+}

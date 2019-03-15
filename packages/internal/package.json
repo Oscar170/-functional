@@ -1,0 +1,8 @@
+{
+    "name": "@functional/internal",
+    "version": "0.1.0",
+    "description": "Internal utils for the lib",
+    "main": "/dist/index.js",
+    "license": "MIT",
+    "private": false
+}
