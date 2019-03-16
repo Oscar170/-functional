@@ -8,5 +8,8 @@
     "rules": {
         "prettier": true,
         "semicolon": "single"
+    },
+    "linterOptions": {
+        "exclude": ["**/*.d.ts"]
     }
 }

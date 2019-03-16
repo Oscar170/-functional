@@ -9,8 +9,10 @@
     "prerelease": "yarn build",
     "release": "lerna publish",
     "commit": "git-cz",
-    "prebuild": "npm run tsc && npm run lint && npm run test",
+    "prebuild": "yarn tsc && yarn lint && yarn test",
     "build": "lerna exec --parallel 'BABEL_ENV=build babel src --root-mode upward  --out-dir dist --ignore **/*.spec.ts --source-maps --extensions .ts --delete-dir-on-start --no-comments'",
+    "postbuild": "yarn build:declarations",
+    "build:declarations": "lerna exec --parallel 'tsc --project ./tsconfig.build.json'",
     "lint": "tslint --config tslint.json 'packages/**/*.ts'",
     "test": "jest --detectOpenHandles",
     "tsc": "tsc"

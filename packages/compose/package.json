@@ -4,5 +4,8 @@
   "description": "Compose function",
   "main": "dist/index.js",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "@functional/internal": "^0.1.2"
+  }
 }
