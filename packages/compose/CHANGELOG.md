@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/Oscar170/-functional/compare/@functional/compose@0.1.2...@functional/compose@0.1.3) (2019-03-16)
+
+**Note:** Version bump only for package @functional/compose
+
+
+
+
+
 ## [0.1.2](https://github.com/Oscar170/-functional/compare/@functional/compose@0.1.1...@functional/compose@0.1.2) (2019-03-15)
 
 
