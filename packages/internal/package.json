@@ -1,8 +1,9 @@
 {
-    "name": "@functional/internal",
-    "version": "0.2.0",
-    "description": "Internal utils for the lib",
-    "main": "dist/index.js",
-    "license": "MIT",
-    "private": false
+  "name": "@functional/internal",
+  "version": "0.2.0",
+  "description": "Internal utils for the lib",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "private": false
 }
