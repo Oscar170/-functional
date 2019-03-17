@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/Oscar170/-functional/compare/@functional/internal@0.2.0...@functional/internal@0.2.1) (2019-03-17)
+
+
+### Bug Fixes
+
+* **types:** add the declaration of types in package.json ([a76fb67](https://github.com/Oscar170/-functional/commit/a76fb67))
+
+
+
+
+
 # [0.2.0](https://github.com/Oscar170/-functional/compare/@functional/internal@0.1.3...@functional/internal@0.2.0) (2019-03-17)
 
 

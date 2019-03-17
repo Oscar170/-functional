@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/Oscar170/-functional/compare/@functional/compose@0.1.4...@functional/compose@0.1.5) (2019-03-17)
+
+
+### Bug Fixes
+
+* **types:** add the declaration of types in package.json ([a76fb67](https://github.com/Oscar170/-functional/commit/a76fb67))
+
+
+
+
+
 ## [0.1.4](https://github.com/Oscar170/-functional/compare/@functional/compose@0.1.3...@functional/compose@0.1.4) (2019-03-17)
 
 **Note:** Version bump only for package @functional/compose
