@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/Oscar170/-functional/compare/@functional/internal@0.2.1...@functional/internal@0.2.2) (2019-03-17)
+
+**Note:** Version bump only for package @functional/internal
+
+
+
+
+
 ## [0.2.1](https://github.com/Oscar170/-functional/compare/@functional/internal@0.2.0...@functional/internal@0.2.1) (2019-03-17)
 
 

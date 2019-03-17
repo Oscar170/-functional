@@ -1,6 +1,6 @@
 {
   "name": "@functional/compose",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Compose function",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,6 +10,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@functional/internal": "^0.2.1"
+    "@functional/internal": "^0.2.2"
   }
 }
