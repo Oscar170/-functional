@@ -1,17 +1,18 @@
 {
-    "compilerOptions": {
-      "noEmit": true,
-      "strict": true,
-      "target": "esnext",
-      "module": "esnext",
-      "moduleResolution": "node",
-      "esModuleInterop": true,
-      "rootDir": "./",
-      "baseUrl": "./",
-      "paths": {
-        "*": ["node_modules", "packages"]
-      }
-    },
-    "include": ["packages"],
-    "exclude": ["node_modules"]
-  }
+  "compilerOptions": {
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "rootDir": "./",
+    "baseUrl": "./",
+    "paths": {
+      "@functional/*": ["packages/*/src"],
+      "*": ["node_modules", "packages"]
+    }
+  },
+  "include": ["packages"],
+  "exclude": ["node_modules"]
+}

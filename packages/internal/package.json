@@ -4,6 +4,9 @@
   "description": "Internal utils for the lib",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "private": false
 }
