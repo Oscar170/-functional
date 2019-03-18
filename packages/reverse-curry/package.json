@@ -1,6 +1,6 @@
 {
   "name": "@functional/reverse-curry",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Reverse curry function",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
