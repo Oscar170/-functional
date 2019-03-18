@@ -1,0 +1,15 @@
+{
+  "name": "@functional/curry",
+  "version": "0.1.7",
+  "description": "Curry function",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@functional/core": "^0.2.3"
+  }
+}
