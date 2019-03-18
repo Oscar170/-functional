@@ -1,6 +1,6 @@
 {
   "name": "@functional/curry",
-  "version": "0.1.7",
+  "version": "0.0.0",
   "description": "Curry function",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
