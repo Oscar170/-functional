@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.3 (2019-03-18)
+
+
+### Bug Fixes
+
+* **build:** fix the types ([a68b38c](https://github.com/Oscar170/-functional/commit/a68b38c))
+
+
+
+
+
 ## [0.2.2](https://github.com/Oscar170/-functional/compare/@functional/internal@0.2.1...@functional/internal@0.2.2) (2019-03-17)
 
 **Note:** Version bump only for package @functional/internal
