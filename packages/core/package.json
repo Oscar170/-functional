@@ -1,7 +1,7 @@
 {
-  "name": "@functional/internal",
+  "name": "@functional/core",
   "version": "0.2.2",
-  "description": "Internal utils for the lib",
+  "description": "Core utils for the lib",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

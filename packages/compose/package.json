@@ -10,6 +10,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@functional/internal": "^0.2.2"
+    "@functional/core": "^0.2.2"
   }
 }

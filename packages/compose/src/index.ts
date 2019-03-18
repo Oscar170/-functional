@@ -1,4 +1,5 @@
-const compose = (...funcs: Array<(val: any) => any>) => (val: any) =>
-  funcs.reduce((a, b) => b(a), val);
+import { buildCompose } from '@functional/core';
+
+const compose = buildCompose((funcs) => funcs);
 
 export default compose;

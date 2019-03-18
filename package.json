@@ -6,16 +6,16 @@
     "packages/*"
   ],
   "scripts": {
-    "prerelease": "yarn build",
-    "release": "lerna publish",
-    "commit": "git-cz",
     "prebuild": "yarn tsc && yarn lint && yarn test",
     "build": "lerna exec --parallel 'BABEL_ENV=build babel src --root-mode upward  --out-dir dist --ignore **/*.spec.ts --source-maps --extensions .ts --delete-dir-on-start --no-comments'",
     "postbuild": "yarn build:declarations",
-    "build:declarations": "lerna exec --parallel 'tsc --project ./tsconfig.build.json'",
+    "prerelease": "yarn build",
+    "release": "lerna publish",
+    "commit": "git-cz",
+    "tsc": "tsc",
     "lint": "tslint --config tslint.json 'packages/**/*.ts'",
     "test": "jest --detectOpenHandles",
-    "tsc": "tsc"
+    "build:declarations": "lerna exec --stream 'tsc --project ./tsconfig.build.json'"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
