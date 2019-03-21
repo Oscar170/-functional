@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.9](https://github.com/Oscar170/-functional/compare/@functional/compose@0.1.8...@functional/compose@0.1.9) (2019-03-21)
+
+
+### Bug Fixes
+
+* **compose:** the compose and pipe function had the behavior switched. ([adc59bb](https://github.com/Oscar170/-functional/commit/adc59bb))
+
+
+
+
+
 ## [0.1.8](https://github.com/Oscar170/-functional/compare/@functional/compose@0.1.7...@functional/compose@0.1.8) (2019-03-21)
 
 **Note:** Version bump only for package @functional/compose
