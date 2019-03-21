@@ -6,5 +6,5 @@ test('Should compose the functions', () => {
     (val: number) => val * 2,
   );
 
-  expect(composedFunction(5)).toBe(50);
+  expect(composedFunction(5)).toBe(100);
 });

@@ -1,5 +1,5 @@
 import { buildCompose } from '@functional/core';
 
-const pipe = buildCompose((funcs) => funcs.reverse());
+const pipe = buildCompose((funcs) => funcs);
 
 export default pipe;
