@@ -2,6 +2,7 @@
   "name": "@functional/core",
   "version": "0.2.3",
   "description": "Core utils for the lib",
+  "author": "Oscar170 <oviciana@gmail.com>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

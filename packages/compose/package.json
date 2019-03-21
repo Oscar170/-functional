@@ -2,6 +2,7 @@
   "name": "@functional/compose",
   "version": "0.1.7",
   "description": "Compose function",
+  "author": "Oscar170 <oviciana@gmail.com>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
