@@ -1,0 +1,13 @@
+{
+  "name": "@functional/equal",
+  "version": "0.0.1",
+  "description": "Equal function",
+  "author": "Oscar170 <oviciana@gmail.com>",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "private": false
+}
