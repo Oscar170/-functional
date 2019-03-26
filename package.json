@@ -15,6 +15,7 @@
     "tsc": "tsc",
     "lint": "tslint --config tslint.json 'packages/**/*.ts'",
     "test": "jest --detectOpenHandles",
+    "test:dev": "jest --detectOpenHandles --watch",
     "build:declarations": "lerna exec --stream 'tsc --project ./tsconfig.build.json'"
   },
   "devDependencies": {

@@ -1,0 +1,16 @@
+{
+  "name": "@functional/map",
+  "version": "0.0.1",
+  "description": "map function",
+  "author": "Oscar170 <oviciana@gmail.com>",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@functional/for-each": "^0.1.0"
+  }
+}
