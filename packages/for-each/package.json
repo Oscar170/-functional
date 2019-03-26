@@ -1,6 +1,6 @@
 {
   "name": "@functional/for-each",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "forEach function",
   "author": "Oscar170 <oviciana@gmail.com>",
   "main": "dist/index.js",
