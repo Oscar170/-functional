@@ -1,12 +1,7 @@
-import forEach from '@functional/for-each';
+import reduce from '@functional/reduce';
 
 function map<T, E>(action: (item: T) => E, list: T[]): E[] {
-  const newList: E[] = [];
-  forEach((item) => {
-    newList.push(action(item));
-  }, list);
-
-  return newList;
+  return reduce((acc, curr) => [...acc, action(curr)], [], list);
 }
 
 export default map;
