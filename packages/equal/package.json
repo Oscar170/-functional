@@ -9,5 +9,8 @@
     "dist"
   ],
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "@functional/every": "^0.1.0"
+  }
 }

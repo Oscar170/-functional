@@ -1,3 +1,5 @@
+import every from '@functional/every';
+
 type definitionProp = (value: any) => boolean;
 
 function equal(definition: { [key: string]: any | definitionProp }) {
@@ -11,11 +13,11 @@ function equal(definition: { [key: string]: any | definitionProp }) {
       keysToCompare.push(keyToCompare);
     }
 
-    if (!keys.every((key) => keysToCompare.includes(key))) {
+    if (!every((key) => keysToCompare.includes(key), keys)) {
       return false;
     }
 
-    return keys.every((key) => {
+    return every((key) => {
       const definitionItem = definition[key];
       const itemToCompare = objectToCompare[key];
 
@@ -24,7 +26,7 @@ function equal(definition: { [key: string]: any | definitionProp }) {
       }
 
       return definitionItem === itemToCompare;
-    });
+    }, keys);
   };
 
   return compare;
