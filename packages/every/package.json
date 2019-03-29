@@ -1,0 +1,16 @@
+{
+  "name": "@functional/every",
+  "version": "0.0.1",
+  "description": "Every function",
+  "author": "Oscar170 <oviciana@gmail.com>",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@functional/reduce": "^0.1.1"
+  }
+}
