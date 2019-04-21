@@ -1,17 +1,14 @@
-import forEach from '@functional/for-each';
-
 function reduce(
-  action: (acumulator: any, item: any) => any,
-  initAcumulator: any,
+  fn: (accumulator: any, current: any) => any,
+  accumulator: any,
   list: any[],
-) {
-  let acumulator = initAcumulator;
+): any {
+  if (list.length <= 0) {
+    return accumulator;
+  }
+  const [current, ...tail] = list;
 
-  forEach((item) => {
-    acumulator = action(acumulator, item);
-  }, list);
-
-  return acumulator;
+  return reduce(fn, fn(accumulator, current), tail);
 }
 
 export default reduce;
