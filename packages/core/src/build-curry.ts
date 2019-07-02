@@ -2,14 +2,18 @@ type IArgsParser = (args: any[]) => any[];
 type Currying = (...args: any[]) => Currying | any;
 
 // tslint:disable-next-line:ban-types
-const buildCurry = (argsParser: IArgsParser) => (func: Function) => {
-  const currying = (...args: any[]): Currying => {
-    return args.length >= func.length
-      ? func(...argsParser(args))
-      : currying.bind(null, ...args);
+const buildCurry = (argsParser: IArgsParser) => {
+  const curry = (fn: Function, accArgs: any[] = []) => (
+    ...newArgs: any[]
+  ): Currying => {
+    const combinedArgs = [...accArgs, ...newArgs];
+
+    return combinedArgs.length >= fn.length
+      ? fn(...argsParser(combinedArgs))
+      : curry(fn, combinedArgs);
   };
 
-  return currying;
+  return curry;
 };
 
 export default buildCurry;
