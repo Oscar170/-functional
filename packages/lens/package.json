@@ -1,0 +1,21 @@
+{
+  "name": "@functional/lens",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Oscar <oviciana@gmail.com>",
+  "homepage": "https://github.com/Oscar170/-functional#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oscar170/-functional.git"
+  },
+  "dependencies": {
+    "@functional/get-by-path": "^1.0.0",
+    "@functional/update-by-path": "^1.0.0"
+  }
+}
