@@ -3,6 +3,7 @@ type Currying = (...args: any[]) => Currying | any;
 
 // tslint:disable-next-line:ban-types
 const buildCurry = (argsParser: IArgsParser) => {
+  // tslint:disable-next-line: ban-types
   const curry = (fn: Function, accArgs: any[] = []) => (
     ...newArgs: any[]
   ): Currying => {
