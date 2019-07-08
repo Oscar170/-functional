@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/Oscar170/-functional/compare/@functional/core@0.3.0...@functional/core@0.3.1) (2019-07-08)
+
+
+### Bug Fixes
+
+* **lint:** to can use function has type ([f47668f](https://github.com/Oscar170/-functional/commit/f47668f))
+
+
+
+
+
 # [0.3.0](https://github.com/Oscar170/-functional/compare/@functional/core@0.2.4...@functional/core@0.3.0) (2019-03-22)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@functional/core",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Core utils for the lib",
   "author": "Oscar170 <oviciana@gmail.com>",
   "main": "dist/index.js",
